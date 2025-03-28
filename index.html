@@ -104,39 +104,23 @@
     
     .column {
     float: left;
-    width: 33.33%;
+    width: 50%;
+    margin-top: 400px;
     padding: 5px;
+      box-sizing: border-box;
     }
       
       .row::after {
         content: "";
         clear: both;
         display: table;
-        
       }
       
-      #photo1 {
-        position: absolute;
-        top: 400px;
-        margin-left: 50px;
+      #photo1, #photo2{
+        width: 100%;
+        border-radius: 20px;
       }
-
-      #photo2 {
-        position: absolute;
-        top: 400px;
-        margin-left: 400px; 
-      }
-
-      #project1 {
-        position: absolute;
-        top: 350px;
-
-        h2 {
-          font-size: 20px;
-          color: white;
-          background: pink;
-        }
-      }
+      
     </style>
   </head>
 
@@ -165,7 +149,6 @@
     <div class="column">
       <img src="F63066F5-D45A-4EF0-8C3D-12229E8EF670.jpeg" alt="Actors of Ginny and Georgia hugging eachother and smiling showing unconditional love" style="width: 300px; border-radius: 20px;">
       </div>
-    </div>
     
     <div class="column">
       <img src="ridin 2-01.png" alt="Girl posing with words around" style="width: 300px; border-radius: 20px;">
@@ -174,6 +157,7 @@
     
     <div id="photo2">
       
+      </div>
     </div>
 
   </body>
