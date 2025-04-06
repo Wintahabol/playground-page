@@ -98,23 +98,56 @@
         }
       }
 
-      * {
-        box-sizing: border-box;
+      #photo1 {
+        position: absolute; 
+        top: 400px;
+        left: 20px;
       }
-
-      .column {
-        float: left;
-        margin-top: 400px;
-        margin-left: 8px;
-        padding: 5px;
+      
+      #photo2 {
+        position: absolute;
+        top: 400px; 
+        left: 340px;
       }
-
-      .row::after {
-        content: "";
-        clear: both;
-        display: table;
+      
+      #photo3 {
+        position: absolute;
+        top: 400px; 
+        left: 690px;
+      } 
+      
+      #photo4 {
+        position: absolute;
+        top: 400px; 
+        left: 1010px;
       }
-
+      
+      /* 2nd row */
+      #photo5 {
+        position: absolute; 
+        top: 800px;
+        left: 340px;
+      }
+      
+      #photo6 {
+        position: absolute;
+        top: 800px;
+        left: 690px;
+      }
+      
+      /*3rd row*/
+      #photo7 {
+        position: absolute;
+        top: 1275px;
+        left: 220px;
+      }
+      
+      #photo8 {
+        position: absolute;
+        top: 1275px;
+        left: 800px;
+      }
+      
     </style>
   </head>
 
@@ -137,23 +170,38 @@
 
 
     <!--Photos-->
-    <div class="row">
-      <div class="column">
-        <img src="F63066F5-D45A-4EF0-8C3D-12229E8EF670.jpeg" alt="Actors of Ginny and Georgia hugging eachother and smiling showing unconditional love" style="width: 300px; border-radius: 20px;">
+    <div id="photo1">
+        <img src="F63066F5-D45A-4EF0-8C3D-12229E8EF670.jpeg" alt="Actors of Ginny and Georgia hugging eachother and smiling showing unconditional love" style="width: 270px; border-radius: 20px;">
       </div>
 
-      <div class="column">
-        <img src="ridin 2-01.png" alt="Girl posing with words around" style="width: 300px; border-radius: 20px;">
+      <div id="photo2">
+        <img src="ridin 2-01.png" alt="Girl posing with words around" style="width: 270px; border-radius: 20px;">
       </div>
 
-      <div class="column">
-        <img src="Daisies-03.png" alt="Girl kneeling in a field of daisies, holding a bunch of daisies in her hand" style="width:300px; border-radius: 20px;">
+      <div id="photo3">
+        <img src="Daisies-03.png" alt="Girl kneeling in a field of daisies, holding a bunch of daisies in her hand" style="width: 270px; height: 345px; border-radius: 20px;">
       </div>
       
-      <div class="column">
-        <img src="Goliath_3.png" alt="Girl sitting in the middle, yellow 3D stars around the background, and the lyrics: When I say I love you, I mean I would pull every star from the sky down" style="width: 300px; border-radius: 20px;">
+      <div id="photo4">
+        <img src="Goliath_3.png" alt="Girl sitting in the middle, yellow 3D stars around the background, and the lyrics: When I say I love you, I mean I would pull every star from the sky down" style="width: 270px; border-radius: 20px;">
       </div>
+    
+    <!--2nd row-->
+    <div id="photo5">
+         <img src="poster designs 101_Poster 2.png" alt="Glass building in the background and girl posing on the stairs" style="width: 270px; border-radius: 20px;">
+    </div>
       
-      </div>
+    <div id="photo6">
+      <img src="poster designs 101_Poster 1.png" alt="Glass building in the background and girl posing on the stairs" style="width: 270px; border-radius: 20px;">
+    </div>
+    
+    <!--3rd row-->
+    <div id="photo7">
+      <img src="Bridge painting.jpeg" alt="logo on a bag that is leaning off a grey couch" style="width: 400px; border-radius: 20px;">
+    </div>
+      
+    <div id="photo8">
+      <img src="fantasy painting.jpeg" alt="light pink and purple dreamy painting with a large scale portrait in the background and girl sitting behind a frame looking at her fantasy past" style="width: 270px; border-radius: 20px;">
+    </div>
   </body>
 </html>
